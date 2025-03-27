@@ -12,8 +12,10 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 1. Build the React app:
    ```bash
-   npm run build
-   ```
+cd nationality-app
+npm install
+npm run build   
+```
 
 2. Create the LocalStack container with the following command:
    ```bash
