@@ -58,11 +58,11 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 11. Move into the disc folder:
    ```bash
-      cd dist
+   cd dist
  ```
 12. Upload index.html:
    ```bash
-      awslocal s3 website s3://nationality-app-bucket --index-document index.html
+   awslocal s3 website s3://nationality-app-bucket --index-document index.html
  ```
 
 13. Upload the files from the `dist/` directory:
@@ -77,7 +77,7 @@ This project demonstrates how I deployed my Nationality-App React project to an 
  ```
 15. Configure website hosting:
    ```bash
-      awslocal s3 sync ./dist s3://nationality-app-bucket
+   awslocal s3 sync ./dist s3://nationality-app-bucket
  ```
 
 
