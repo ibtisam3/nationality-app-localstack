@@ -11,7 +11,7 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 ## Steps to Deploy:
 
 1. Build the React app:
-   ```bash
+  ```bash
  npm run build   
 ```
 
