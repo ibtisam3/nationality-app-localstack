@@ -10,6 +10,16 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 ## Steps to Deploy:
 
+1. Navigate to project directory:
+  ```bash
+ cd nationality-app   
+```
+
+2. Install dependencies:
+  ```bash
+ npm install   
+```
+
 1. Build the React app:
   ```bash
  npm run build   
@@ -27,12 +37,18 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 4. Create the S3 bucket:
    ```bash
-   aws --endpoint-url=http://localhost:4566 s3 mb s3://<bucket-name>
-   ```
+      awslocal s3api create-bucket --bucket nationality-app-bucket
+ ```
+
+
+8. Configure website hosting
+   ```bash
+      awslocal s3 sync ./dist s3://nationality-app-bucket
+ ```
 
 5. Upload the files from the `dist/` directory:
    ```bash
-   aws --endpoint-url=http://localhost:4566 s3 cp ./dist s3://<bucket-name>/ --recursive
+      aws --endpoint-url=http://localhost:4566 s3 cp ./dist s3://<nationality-app-bucket>/ --recursive
    ```
 
 6. Access your deployed app:
