@@ -1,10 +1,12 @@
 # React Project Deployment to LocalStack S3
 
-This project is a React app that is deployed to an S3 bucket running inside LocalStack using Docker.
+This project demonstrates how I deployed my Nationality-App React project to an S3 bucket using LocalStack and Docker.
+
 
 ## Prerequisites:
 - Docker
 - Docker Compose
+- Node.js (for building the React app)
 
 ## Steps to Deploy:
 
