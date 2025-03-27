@@ -73,7 +73,7 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 14. Set Permissions:
    ```bash
-   awslocal s3api put-bucket-policy --bucket your-bucket-name --policy file://policy.json
+   awslocal s3api put-bucket-policy --bucket nationality-app-bucket --policy file://policy.json
  ```
 15. Configure website hosting:
    ```bash
