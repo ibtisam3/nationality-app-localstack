@@ -36,14 +36,14 @@ This project demonstrates how I deployed my Nationality-App React project to an 
    ```
 
 7. Enter the LocalStack container:
-   ```bash
-   docker exec -it nationality-app-localstack-1 bash
+```bash
+docker exec -it nationality-app-localstack-1 bash
    ```
 
 
 8. Verify folder structure :
   ```bash
-    ls
+   ls
 ```
 9. Navigate back into bucket :
   ```bash
