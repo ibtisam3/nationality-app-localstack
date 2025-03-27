@@ -56,7 +56,7 @@ docker exec -it nationality-app-localstack-1 bash
    awslocal s3api create-bucket --bucket nationality-app-bucket
  ```
 
-11. Move into the disc folder:
+11. Move into the dist folder:
    ```bash
    cd dist
  ```
