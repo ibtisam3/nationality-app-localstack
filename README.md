@@ -38,13 +38,13 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 7. Enter the LocalStack container:
    ```bash
    docker exec -it nationality-app-localstack-1 bash
-```
+   ```
 
-7. verify folder structure :
+
+8. Verify folder structure :
   ```bash
- ls
+    
 ```
-
 9. Navigate back into bucket :
   ```bash
  cd nationality-app-bucket
