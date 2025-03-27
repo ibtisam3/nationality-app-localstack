@@ -83,7 +83,7 @@ docker exec -it nationality-app-localstack-1 bash
 
 16. Access your deployed app:
    ```
-(http://nationality-app-bucket.s3.localhost.localstack.cloud:4566/index.html)
+http://nationality-app-bucket.s3.localhost.localstack.cloud:4566/index.html
  ```
 
 ## Files Included:
