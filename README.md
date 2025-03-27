@@ -43,7 +43,7 @@ This project demonstrates how I deployed my Nationality-App React project to an 
 
 8. Verify folder structure :
   ```bash
-    
+    ls
 ```
 9. Navigate back into bucket :
   ```bash
