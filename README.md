@@ -25,7 +25,7 @@ This project demonstrates how I deployed my Nationality-App React project to an 
  npm run build   
 ```
 
-5. Move the disc file :
+5. Move the dist file :
   ```bash
  mv dist nationality-app-bucket
    ```
